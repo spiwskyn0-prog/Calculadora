@@ -51,8 +51,13 @@ def entrar_valores(valor):
 
 def calcular():
     global todos_valores
-    resultado = eval(todos_valores)
-    valor_texto.set(str(resultado))
+    try:
+        resultado = eval(todos_valores)
+        valor_texto.set(str(resultado))
+        todos_valores = str(resultado)
+    except (SyntaxError, ZeroDivisionError, NameError):
+        valor_texto.set("Erro")
+        todos_valores = ""
 
 # Função para limpar a tela
 
@@ -60,6 +65,13 @@ def apagar_tela():
     global todos_valores
     todos_valores = ""
     valor_texto.set("")
+
+# funcao para apagar o ultimo caractere
+
+def apagar_ultimo():
+    global todos_valores
+    todos_valores = todos_valores[:-1]
+    valor_texto.set(todos_valores)
 
 # Criando a tela da calculadora
 
@@ -113,13 +125,13 @@ b_14.grid(row=3, column=2, sticky="nsew")
 b_15 = Button(corpo, command = calcular, text="=", bg=cor4, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 b_15.grid(row=3, column=3, rowspan=2, sticky="nsew")
 
-b_16 = Button(corpo, command = lambda: entrar_valores("%"), text="%", bg=cor3, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
+b_16 = Button(corpo, command = lambda: entrar_valores("."), text=".", bg=cor3, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 b_16.grid(row=4, column=0, sticky="nsew")
 
 b_17 = Button(corpo, command = lambda: entrar_valores("0"), text="0", bg=cor3, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 b_17.grid(row=4, column=1, sticky="nsew")
 
-b_18 = Button(corpo, command = lambda: entrar_valores("."), text=".", bg=cor3, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
+b_18 = Button(corpo, command = apagar_ultimo, text="CE", bg=cor3, fg=cor1, font=("Ivy 13 bold"), relief=RAISED, overrelief=RIDGE)
 b_18.grid(row=4, column=2, sticky="nsew")
 
 janela.mainloop()
