@@ -2,11 +2,11 @@ from tkinter import *
 
 # Definindo quais cores serão usadas
 
-cor1 = "#beef9e"  # Light Green
-cor2 = "#a6c36f"  # Muted Olive
-cor3 = "#828c51"  # Palm Leaf
-cor4 = "#335145"  # Pine Teal
-cor5 = "#1e352f"  # Evergreen
+cor1 = "#efe9fb"  # lavanda claríssima (display)
+cor2 = "#b8a4d9"  # lavanda (operadores)
+cor3 = "#7c5cb8"  # roxo médio (números)
+cor4 = "#4a2f6b"  # roxo escuro (botão =)
+cor5 = "#1e1233"  # quase preto roxo (fundo)
 
 # Criando a janela principal
 
