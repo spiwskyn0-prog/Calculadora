@@ -30,7 +30,9 @@ Interface
 
 A aplicação possui uma interface gráfica com identidade visual em tons de roxo, botões organizados em grade e visor para exibição das expressões matemáticas e dos resultados.
 
-<img width="292" height="425" alt="Image" src="https://github.com/user-attachments/assets/93da5830-cc8f-4127-a6d1-54d1ecb2bb5b"
+div align="center"
+img src="(https://github.com/user-attachments/assets/93da5830-cc8f-4127-a6d1-54d1ecb2bb5b)" width="0px" /
+/div
 
 Como executar
 
