@@ -1,6 +1,6 @@
 Calculadora Python
 
-Calculadora com interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. O projeto possui uma interface personalizada e permite realizar operações aritméticas básicas.
+Calculadora com interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. O projeto apresenta uma interface personalizada e permite realizar operações aritméticas básicas de forma simples e intuitiva.
 
 Funcionalidades
 
@@ -18,37 +18,39 @@ Limpeza completa do visor.
 
 Exclusão do último caractere digitado.
 
-Exibição dos resultados na interface gráfica.
+Exibição de expressões e resultados na interface gráfica.
 
 Tecnologias utilizadas
 
-Python
+Python: linguagem utilizada no desenvolvimento da aplicação.
 
-Tkinter
+Tkinter: biblioteca utilizada para construção da interface gráfica.
 
 Interface
 
-A aplicação possui uma interface gráfica com identidade visual em tons de roxo, botões organizados em grade e visor para exibição das expressões e resultados.
+A aplicação possui uma interface gráfica com identidade visual em tons de roxo, botões organizados em grade e visor para exibição das expressões matemáticas e dos resultados.
+
+![Interface da Calculadora](<img width="292" height="425" alt="Image" src="https://github.com/user-attachments/assets/93da5830-cc8f-4127-a6d1-54d1ecb2bb5b" />)
 
 Como executar
 
-Instale o Python.
+1. Certifique-se de ter o Python instalado.
 
-Clone o repositório:
+2. Clone o repositório:
 
 git clone https://github.com/spiwskyn0-prog/Calculadora.git
 
-Entre na pasta:
+3. Entre na pasta do projeto:
 
 cd Calculadora
 
-Execute a aplicação:
+4. Execute a aplicação:
 
 python main.py
 
 Objetivo do projeto
 
-Projeto desenvolvido para praticar conceitos de programação em Python, criação de interfaces gráficas com Tkinter, manipulação de eventos e organização de funções.
+Projeto desenvolvido com o objetivo de praticar conceitos de programação em Python, criação de interfaces gráficas com Tkinter, manipulação de eventos e organização de funções.
 
 Autor
 
