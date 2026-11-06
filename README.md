@@ -1,40 +1,33 @@
-Calculadora Python
+# Calculadora Python
 
 Calculadora com interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. O projeto apresenta uma interface personalizada e permite realizar operações aritméticas básicas de forma simples e intuitiva.
 
-Funcionalidades
+## Funcionalidades
 
-Adição.
+- Adição.
+- Subtração.
+- Multiplicação.
+- Divisão.
+- Operações com números decimais.
+- Limpeza completa do visor.
+- Exclusão do último caractere digitado.
+- Exibição de expressões e resultados na interface gráfica.
 
-Subtração.
-
-Multiplicação.
-
-Divisão.
-
-Operações com números decimais.
-
-Limpeza completa do visor.
-
-Exclusão do último caractere digitado.
-
-Exibição de expressões e resultados na interface gráfica.
-
-Tecnologias utilizadas
+## Tecnologias utilizadas
 
 Python: linguagem utilizada no desenvolvimento da aplicação.
 
 Tkinter: biblioteca utilizada para construção da interface gráfica.
 
-Interface
+## Interface
 
 A aplicação possui uma interface gráfica com identidade visual em tons de roxo, botões organizados em grade e visor para exibição das expressões matemáticas e dos resultados.
 
-div align="center"
-img src="(https://github.com/user-attachments/assets/93da5830-cc8f-4127-a6d1-54d1ecb2bb5b)" width="0px" /
-/div
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/93da5830-cc8f-4127-a6d1-54d1ecb2bb5b" width="250px" alt="Interface da Calculadora">
+</div>
 
-Como executar
+## Como executar
 
 1. Certifique-se de ter o Python instalado.
 
@@ -50,11 +43,11 @@ cd Calculadora
 
 python main.py
 
-Objetivo do projeto
+## Objetivo do projeto
 
 Projeto desenvolvido com o objetivo de praticar conceitos de programação em Python, criação de interfaces gráficas com Tkinter, manipulação de eventos e organização de funções.
 
-Autor
+## Autor
 
 Miguel Galego
 
